@@ -7,7 +7,14 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      posts: []
+      posts: [],
+      meet: {
+        name: '',
+        place: '',
+        time: '',
+        topic: '',
+        photo_url: ''
+      }
     };
   }
   componentDidMount() {
@@ -34,7 +41,14 @@ class Home extends Component {
         );
       });
     }
-    return <div>{posting}</div>;
+    return (
+      <div>
+        <Link to="/new">
+          <button>New</button>
+        </Link>
+        <div>{posting}</div>
+      </div>
+    );
   }
 }
 

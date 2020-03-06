@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import { APIURL } from '../config';
 
 let posting;
 class Home extends Component {
@@ -18,8 +19,9 @@ class Home extends Component {
     };
   }
   componentDidMount() {
-    const url = 'http://localhost:8000/meets/';
-    axios.get(url).then(res => this.setState({ posts: res.data }));
+    axios
+      .get(`${APIURL}/meets/`)
+      .then(res => this.setState({ posts: res.data }));
   }
   render() {
     let posts = this.state.posts;

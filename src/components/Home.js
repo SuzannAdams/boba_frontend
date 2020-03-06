@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 let posting;
 class Home extends Component {
@@ -19,7 +20,12 @@ class Home extends Component {
 			posting = posts.map(meet => {
 				return (
 					<div key={meet.id}>
-						<h3>{meet.name}</h3>
+						<Link
+							onClick={() => this.props.setMeetId(meet.id)}
+							to={`/meet/${meet.id}`}
+						>
+							<h3>{meet.name}</h3>
+						</Link>
 						<h4>{meet.place}</h4>
 						<h4>{meet.time}</h4>
 						<h4>{meet.topic}</h4>

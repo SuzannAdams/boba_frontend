@@ -10,19 +10,15 @@ class Home extends Component {
 		};
 	}
 	componentDidMount() {
-		const url = 'https://localhost:8000/meets/?format=json';
-		fetch(url)
-			.then(response => response.json())
-			.then(data => {
-				this.setState({ posts: data });
-			});
+		const url = 'http://localhost:8000/meets/';
+		axios.get(url).then(res => this.setState({ posts: res.data }));
 	}
 	render() {
 		let posts = this.state.posts;
 		if (posts !== null) {
 			posting = posts.map(meet => {
 				return (
-					<div key={meet._id}>
+					<div key={meet.id}>
 						<h3>{meet.name}</h3>
 						<h4>{meet.place}</h4>
 						<h4>{meet.time}</h4>

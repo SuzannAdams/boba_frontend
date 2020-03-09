@@ -5,6 +5,7 @@ import Meet from './components/Meet';
 import New from './components/New';
 import Edit from './components/Edit';
 import { Link, Switch, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
 	constructor(props) {

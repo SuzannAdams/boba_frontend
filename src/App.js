@@ -18,10 +18,10 @@ class App extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="App">
         <nav>
           <Link to="/">
-            <h1>Boba Hour</h1>
+            <h1 className="webTitle">Boba Hour</h1>
           </Link>
         </nav>
         <main>

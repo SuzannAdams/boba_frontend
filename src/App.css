@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.webTitle {
+  font-weight: bold;
+
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: rgb(221, 204, 174);
+}
+img {
+  width: 475px;
+}

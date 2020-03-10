@@ -18,7 +18,6 @@ class Meet extends Component {
 				.get(`${APIURL}/meets/${id}`)
 				.then(res => this.setState({ post: res.data }));
 		}
-		console.log(this.props.meetId);
 	}
 
 	render() {
@@ -42,7 +41,7 @@ class Meet extends Component {
 		return (
 			<div>
 				<div>Meet Information</div>
-				<div>{stuff}</div>
+				<div className="meet_container">{stuff}</div>
 			</div>
 		);
 	}

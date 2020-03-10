@@ -40,34 +40,44 @@
 }
 .webTitle {
   font-weight: bold;
-
+  background-color: white;
   color: rgb(63, 71, 76);
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-
-/* body {
-  background-color: rgb(221, 204, 174);
-} */
+p {
+  background-color: white;
+  margin-top: -9px;
+}
+h2 {
+  margin-top: -17px;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 html,
 body {
   margin: 0;
   padding: 0;
 }
+
 body {
   background: rgb(221, 204, 174);
 }
-body:after {
-  content: '';
-  background: white;
-  position: fixed;
-  top: 0;
-  bottom: 80%;
-  right: 0;
-  left: 0;
-  content: ' ';
-  z-index: -1;
-}
 
 img {
-  width: 475px;
+  width: 350px;
+  height: 450px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 10px 20px;
+}
+
+.webTitle:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
 }

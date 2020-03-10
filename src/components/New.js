@@ -38,7 +38,7 @@ class New extends Component {
 		return (
 			<div>
 				<div>New Post</div>
-				<div>
+				<div className="post">
 					<Form
 						meet={this.state.meet}
 						handleChange={this.handleChange}

@@ -44,9 +44,30 @@
   color: rgb(63, 71, 76);
 }
 
-body {
+/* body {
   background-color: rgb(221, 204, 174);
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
+body {
+  background: rgb(221, 204, 174);
+}
+body:after {
+  content: '';
+  background: white;
+  position: fixed;
+  top: 0;
+  bottom: 80%;
+  right: 0;
+  left: 0;
+  content: ' ';
+  z-index: -1;
+}
+
 img {
   width: 475px;
 }

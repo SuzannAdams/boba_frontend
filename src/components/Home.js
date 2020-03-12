@@ -45,15 +45,15 @@ class Home extends Component {
       <div>
         <p>
           Boba Hour is a website for boba or bubble tea drinkers who are
-          interested in meeting other
+          interested in meeting other people while enjoying an
         </p>
         <p>
-          people while enjoying a cool beverage. This site invites visitors to
-          post and respond by
+          Asian style, cool beverage. This site invites visitors to post their
+          tea cafe location with the intention of having another visitor
         </p>
         <p>
-          traveling to the posted locale to meet and socialize with each other
-          in any city they visit.
+          respond by traveling to the posted locale. The hope is to have
+          amicable conversations, to socialize and possibly make a new friend.
         </p>
         <h2>Tea Cafe</h2>
         <p className="tea-cafe-p">Choose a tea cafe by city and state</p>

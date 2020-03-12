@@ -28,6 +28,7 @@ class Meet extends Component {
           <h3>{post.name}</h3>
           <h4>{post.place}</h4>
           <h4>{post.address}</h4>
+          <h4>{post.date}</h4>
           <h4>{post.time}</h4>
           <h4>{post.topic}</h4>
           <img src={post.photo_url} alt={post.place} />

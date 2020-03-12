@@ -30,6 +30,15 @@ const Form = ({ meet, handleSubmit, handleChange }) => (
         required
         id="address"
       />
+      <label htmlFor="date"></label>
+      <input
+        name="date"
+        placeholder="Date"
+        value={meet.date}
+        onChange={handleChange}
+        required
+        id="date"
+      />
       <label htmlFor="time"></label>
       <input
         name="time"

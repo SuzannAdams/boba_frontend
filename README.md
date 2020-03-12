@@ -1,68 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website:
 
-## Available Scripts
+https://github.com/SuzannAdams/boba_frontend
 
-In the project directory, you can run:
+## Description:
 
-### `yarn start`
+Boba Hour is a website for boba or bubble tea drinkers who are interested in meeting other people while enjoying Asian style, cool beverages. This site invites visitors to post their tea cafe location with the intention of having another visitor respond by traveling to the posted locale. The hope is to have a casual conversation, socialize and/or possibly make a new friend.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## User Stories:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. As a user who wants to meet new people locally, I want to connect with someone at a bubble tea location to talk while I enjoy my boba tea and possibly trade personal info. to get together again.
+2. As a user who loves trendy, Asian, cold beverages, I’d like to be able to socialize with other tea or boba aficionados at a tea house and have a casual chat about current events, family, work or hobbies.
+3. As a user from out of town, when I travel or explore a new city, I like to rest my feet and refresh myself at a tea shop, as well as, meet the local people in town or meet other travelers to enhance my travel and life experience.
 
-### `yarn test`
+## Technologies Used:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The technologies used for Boba Hour is React JSX, React Bootstrap and Axios. CSS Grid and Flexbox were also used to style the pages.
 
-### `yarn build`
+## Getting Started/Installation:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This application can be used by pulling it up on GitHub, forking it to your personal repository, then cloning and copying it into your terminal. The next step is to run npm install to install the required dependencies, then npm run start on your terminal to run the application in the browser. Then click onto the website and enjoy, otherwise you can also pull it up on Heroku.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Contribution Guidelines:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributors can open an issue on this repository at https://github.com/SuzannAdams/boba_frontend if there are suggestions to improve this application.
 
-### `yarn eject`
+## Problems & Difficulties:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. It was difficult to deploy the Django API to Heroku
+2. Setting up the application to accept uploaded images was also a challenge.
+3. The CSS styling used create the desired look took some research and consultation from peers.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Additions:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In the future, this web app will include a user signup and login, as well as, include Google Maps when a location is opened to provide directions and a map.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Planning & Wireframe:
 
-## Learn More
+https://miro.com/app/board/o9J_kvYn4NM=/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Screen Shot 2020-03-11 at 7 14 46 PM](https://user-images.githubusercontent.com/58324606/76480693-bd61c180-63cc-11ea-9b56-147bf0e431a2.png)

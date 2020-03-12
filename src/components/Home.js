@@ -48,12 +48,12 @@ class Home extends Component {
           interested in meeting other
         </p>
         <p>
-          people while enjoying a cool beverage. This site invites people to
-          post and read post by
+          people while enjoying a cool beverage. This site invites visitors to
+          post and respond by
         </p>
         <p>
-          other people who want to meet and socialize with each other in any
-          city they visit.
+          traveling to the posted locale to meet and socialize with each other
+          in any city they visit.
         </p>
         <h2>Tea Cafe</h2>
         <p className="tea-cafe-p">Choose a tea cafe by city and state</p>

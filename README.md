@@ -1,5 +1,6 @@
 # Website:
 
+https://bobahour.herokuapp.com/
 https://github.com/SuzannAdams/boba_frontend
 
 ## Description:
@@ -14,7 +15,17 @@ Boba Hour is a website for boba or bubble tea drinkers who are interested in mee
 
 ## Technologies Used:
 
-The technologies used for Boba Hour is React JSX, React Bootstrap and Axios. CSS Grid and Flexbox were also used to style the pages.
+The technologies used for Boba Hour is React JSX, React Bootstrap and Axios. CSS Grid and Flexbox were also used to style the pages. The dependencies used are:
+axios
+bootstrap
+enzyme
+enzyme-adapter-react-16
+react
+react-bootstrap
+react-dom
+react-router
+react-router-dom
+react-scripts
 
 ## Getting Started/Installation:
 
@@ -26,7 +37,7 @@ Contributors can open an issue on this repository at https://github.com/SuzannAd
 
 ## Problems & Difficulties:
 
-1. It was difficult to deploy the Django API to Heroku
+1. It was difficult to deploy the Django API to Heroku.
 2. Setting up the application to accept uploaded images was also a challenge.
 3. The CSS styling used create the desired look took some research and consultation from peers.
 

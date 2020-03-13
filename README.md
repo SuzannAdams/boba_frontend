@@ -4,6 +4,8 @@ https://bobahour.herokuapp.com/
 
 https://github.com/SuzannAdams/boba_frontend
 
+![Screen Shot 2020-03-12 at 10 33 00 PM](https://user-images.githubusercontent.com/58324606/76592777-aba61a00-64b1-11ea-9c01-0c557fbc9375.png)
+
 ## Description:
 
 Boba Hour is a website for boba or bubble tea drinkers who are interested in meeting other people while enjoying an Asian style, cool beverage. This site invites visitors to post their tea cafe location with the intention of having another visitor respond by traveling to the posted locale. The hope is to have an amicable conversation, socialize or possibly make a new friend.
@@ -41,6 +43,7 @@ Contributors can open an issue on this repository at https://github.com/SuzannAd
 1. It was difficult to deploy the Django API to Heroku.
 2. Setting up the application to accept uploaded images was also a challenge.
 3. The CSS styling used create the desired look took some research and consultation from peers.
+4. AWS was difficult to apply to our website as a tool for visitors to upload their images.
 
 ## Future Additions:
 

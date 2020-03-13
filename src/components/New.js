@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Form from './Form';
 import axios from 'axios';
 import { APIURL } from '../config';
+import { Redirect } from 'react-router';
 
 class New extends Component {
 	constructor(props) {
@@ -10,10 +11,13 @@ class New extends Component {
 			meet: {
 				name: '',
 				place: '',
+				address: '',
+				date: '',
 				time: '',
 				topic: '',
 				photo_url: ''
-			}
+			},
+			submitted: false
 		};
 	}
 
@@ -33,8 +37,12 @@ class New extends Component {
 			.post(`${APIURL}/meets/`, this.state.meet)
 			.then(response => console.log(response))
 			.catch(error => console.log(error));
+		this.setState({ submitted: true });
 	};
 	render() {
+		if (this.state.submitted === true) {
+			return <Redirect to="/" />;
+		}
 		return (
 			<div>
 				<div>New Post</div>

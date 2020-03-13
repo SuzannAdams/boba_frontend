@@ -11,6 +11,8 @@ class Edit extends Component {
 			meet: {
 				name: '',
 				place: '',
+				address: '',
+				date: '',
 				time: '',
 				topic: '',
 				photo_url: ''
